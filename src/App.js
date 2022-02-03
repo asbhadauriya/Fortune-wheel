@@ -8,7 +8,7 @@ import "./styles.css";
 export class App extends React.Component {
   constructor() {
     super();
-    this.places = [
+    this.coins = [
       "+100",
       "-100",
       "+200",
@@ -25,7 +25,7 @@ export class App extends React.Component {
     return (
       <div className="App">
         <h1>What should you eat today?</h1>
-        <Wheel items={this.places} />
+        <Wheel items={this.coins} />
       </div>
     );
   }
