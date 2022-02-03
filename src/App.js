@@ -9,12 +9,15 @@ export class App extends React.Component {
   constructor() {
     super();
     this.places = [
-      "Pizzas",
-      "Sandwiches",
-      "Salads",
-      "Soup",
-      "Japanese food",
-      "Pastas"
+      "+100",
+      "-100",
+      "+200",
+      "+1000",
+      "0",
+      "+500",
+      "-250",
+      "-500",
+      "+300"
     ];
   }
 
